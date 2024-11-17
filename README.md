@@ -22,6 +22,19 @@ The dataset consists of:
 
 **Output:** The processed dataset, including DCS, is saved to a new Excel file.
 
+## Input file
+
+| Prompt No | Prompt                    | Completion                                                                                   | Student Name | Student_1 | Student_2 | Student_3 | Student_4 | Student_5 | Student_6 | Student_7 | Justified keywords                                       | Delta completion score | RANK |
+|-----------|---------------------------|---------------------------------------------------------------------------------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|---------------------------------------------------------|-------------------------|------|
+| 0         | Describe a beautiful girl  | I would define beautiful girl who has a bright...                                            | Student_1    | 0.7       | 0.70      | 0.8       | 0.7       | 0.7       | 0.6       | 0.6       | bright, smile, personality, confident, character        | 0.014286               | 4    |
+| 1         | Describe a beautiful girl  | She has a warm smile that lights up her face, ...                                            | Student_2    | 0.7       | 0.65      | 0.7       | 0.8       | 0.9       | 0.7       | 0.7       | Empathy, Intelligence, Colour                            | -0.085714              | 6    |
+| 2         | Describe a beautiful girl  | She exudes confidence, with sparkling eyes and...                                            | Student_3    | 0.8       | 0.8       | 0.8       | 0.6       | 0.6       | 0.8       | 0.6       | Confidence, smile, effortlessly                         | 0.085714               | 1    |
+| 3         | Describe a beautiful girl  | A girl with a warm smile, kind eyes, and a con...                                            | Student_4    | 0.4       | 0.7       | 0.6       | 0.7       | 0.8       | 0.7       | 0.4       | smile, genuine, presence                                 | 0.085714               | 1    |
+| 4         | Describe a beautiful girl  | Beauty is subjective, but a beautiful person i...                                           | Student_5    | 0.5       | 0.9       | 0.9       | 0.7       | 0.7       | 0.9       | 0.9       | Empathy, intelligence, Colour                           | -0.071429              | 5    |
+
+
+## Output File
+
 | Prompt No | Prompt                    | Completion                                                                                   | Student Name | Student_1 | Student_2 | Student_3 | Student_4 | Student_5 | Student_6 | Student_7 | Average  | Justified keywords                                       | Delta completion score | RANK | AVG       | DCS        |
 |-----------|---------------------------|---------------------------------------------------------------------------------------------|--------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|----------|---------------------------------------------------------|-------------------------|------|-----------|------------|
 | 0         | Describe a beautiful girl  | I would define beautiful girl who has a bright...                                            | Student_1    | 0.7       | 0.70      | 0.8       | 0.7       | 0.7       | 0.6       | 0.6       | 0.685714 | bright, smile, personality, confident, character        | 0.014286               | 4    | 0.685714  | 0.014286   |
