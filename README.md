@@ -1,6 +1,6 @@
 # Delta-completion-score_Prompt-engineering
 
-**Prompt Engineering - calculating data completion score**
+**Prompt Engineering - calculating delta completion score**
 
 This repository contains a Python script for calculating the Delta Completion Score (DCS) for students based on their completion rates across various prompts and tasks. The calculation dynamically selects the appropriate column for each student, ensuring accurate and personalized scores.
 
@@ -45,3 +45,17 @@ Input File was made in excel, and the output file has two new columns **AVG** wh
 | 3         | Describe a beautiful girl  | A girl with a warm smile, kind eyes, and a con...                                            | Student_4    | 0.4       | 0.7       | 0.6       | 0.7       | 0.8       | 0.7       | 0.4       | 0.614286 | smile, genuine, presence                                 | 0.085714               | 1    | 0.614286  | 0.085714   |
 | 4         | Describe a beautiful girl  | Beauty is subjective, but a beautiful person i...                                           | Student_5    | 0.5       | 0.9       | 0.9       | 0.7       | 0.7       | 0.9       | 0.9       | 0.771429 | Empathy, intelligence, Colour                           | -0.071429              | 5    | 0.771429  | -0.071429  |
 
+
+# Importance of Delta Completion Score (DCS) in Prompt Engineering
+
+The Delta Completion Score (DCS) is a valuable metric for evaluating and improving model outputs in prompt engineering.
+
+>> **Performance Benchmarking:** DCS helps compare a model's output against a baseline, allowing you to assess how closely a response matches expected results.
+
+>> **Identify Outliers:** It highlights responses that significantly differ from the baseline, helping you spot both underperforming prompts and exceptional outputs.
+
+>> **Optimize Prompts:** DCS tracks the impact of prompt refinements, guiding you to improve response quality with each iteration.
+
+>> **Improve Consistency:** By monitoring DCS, you can ensure stable and reliable responses from the model.
+
+>> **Automated Evaluation:** DCS serves as a quantitative measure for automatic performance evaluation, essential for scaling and efficiency.
