@@ -21,3 +21,7 @@ The dataset consists of:
 **Custom DCS Calculation:** Computes DCS = (Student's Completion Rate - AVG), where AVG is the average completion rate across all students for the row.
 
 **Output:** The processed dataset, including DCS, is saved to a new Excel file.
+
+rompt	Completion	Student Name	Student_1	Student_2	Student_3	Student_4	Student_5	Student_6	Student_7	Average	Justified Keywords	Delta Completion Score	RANK
+Prompt_1	I would define beautiful girl who has a bright...	Student_1	0.7	0.70	0.8	0.7	0.7	0.6	0.6	0.685714	bright, smile, personality, confident, character	0.014286	4
+Prompt_1	She has a warm smile that lights up her face, ...	Student_2	0.7	0.65	0.7	0.8	0.9	0.7	0.7	0.735714	Empathy, Intelligence, Colour	-0.085714	6
